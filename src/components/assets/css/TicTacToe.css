@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:30px 0 ;
+    flex-direction: column;
+}
+.title {
+    color:#76E8FC;
+    font-size: 25px;
+    font-weight: 600;
+}
+.board {
+    margin-top:30px;
+}
+.tile {
+    height: 100px;
+    background-color: #a7bfcf;
+    padding:50px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.status {
+    font-weight: 600;
+    font-size: 20px;
+    color: #efe0e0;
+}
+
+.reset-btn {
+    padding:8px 20px;
+    border-radius: 20px;
+    background-color: rgb(5, 201, 201);
+    color:#222222;
+    font-weight: 500;
+    margin-top: 20px;
+}
